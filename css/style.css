@@ -80,11 +80,12 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 /* left-item-img-wrapper starts */
 .left-item-img-wrapper{
-    width: 50%;
+    width: 40%;
 }
 
 .display-img img{
@@ -113,7 +114,7 @@
 
 /* right-item-description-wrapper starts */
 .right-item-description-wrapper{
-    width: 50%;
+    width: 60%;
 }
 /* Top portion style starts */
 .top-portion{

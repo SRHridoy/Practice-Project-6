@@ -79,8 +79,9 @@
     width: 70%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 20px;
+    padding-top: 30px;
 }
 
 /* left-item-img-wrapper starts */
@@ -290,10 +291,84 @@
 
 /* Lower portion style starts */
 
-/* Starts here.... */
+.lower-portion{
+
+}
+
+.common-wrapper{
+    border-bottom: 1px solid rgb(227, 225, 225);
+}
+
+.common-top-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.common-top-text-wrapper h3{
+    font-weight: 500;
+}
+.common-top-icon-wrapper{
+    border: 1px solid rgb(146, 142, 142);
+    border-radius: 50%;
+}
+.common-top-icon-wrapper i{
+    padding: 4px;
+}
+
+.common-body-wrapper{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.common-body-wrapper ul li{
+    color: rgb(103, 101, 101);
+}
+
 
 /* Lower portion style ends */
 /* right-item-description-wrapper ends */
 /* display-item-section style ends */
+
+/* discover-section style starts */
+.discover-section{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.discover-heading-wrapper h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.discover-description-wrapper p{
+    color: rgb(103, 101, 101);
+}
+
+.discover-tab-wrapper{
+
+}
+
+.tab-top-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid rgb(227, 225, 225);
+}
+
+.tab-top-wrapper a{
+    text-decoration: none;
+    color: rgb(103, 101, 101);
+}
+
+.tab-top-wrapper a:first-of-type{
+    color: dodgerblue;
+}
+
+/* Starts here */
+/* discover-section style ends */
 
 /* Main style ends */
